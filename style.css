@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+ul li {
+  list-style-type: none;
+  padding:5%;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+    clear:both;
+}
+.aside {
+	width: 30%;
+    height: 2754px;
+    float:left;
+	background-color: grey;
+}
+.header {
+    width: 70%;
+    float:right;
+    text-align:center;
+    background: #FFE680;
+}
+.secondary {
+    display: flex;
+    width:70%;
+}
+.secondary .item {
+    background-color: lightgrey;
+    padding: 10px;
+    flex: 1 0 0;
+}
+.courses {
+    width: 70%;
+    padding:2%;
+    background-color:lightgreen;
+    overflow:hidden;
+}
+.registration {
+    width:70%;
+    padding: 2%;
+    float:right;
+    background-color:lightgreen;
+}
+.registration input{
+    margin: 1%;
+}
+.footer {
+    padding:2%;
+    height:10%;
+	background-color: #CEC5B3;
+    clear:both;
+    text-align:center;
+}
