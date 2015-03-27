@@ -22,15 +22,20 @@ ul li {
   padding:5%;
 }
 .wrapper {
-	width: 900px;
+	width: 70%;
 	margin: 0 auto;
-    clear:both;
+  clear:both;
+  background-color: gray;
+}
+body{
+  margin:0;
 }
 .aside {
 	width: 30%;
-    height: 2754px;
-    float:left;
+  height: 2754px;
+  float:left;
 	background-color: grey;
+  overflow: hidden;
 }
 .header {
     width: 70%;
@@ -41,6 +46,7 @@ ul li {
 .secondary {
     display: flex;
     width:70%;
+    overflow: hidden;
 }
 .secondary .item {
     background-color: lightgrey;
