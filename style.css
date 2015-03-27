@@ -1,6 +1,21 @@
 * {
   box-sizing: border-box;
 }
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: #333399;
+}
+a:active {
+    color: #6600FF;
+}
+a:focus {
+  color: #333399;
+}
 ul li {
   list-style-type: none;
   padding:5%;
