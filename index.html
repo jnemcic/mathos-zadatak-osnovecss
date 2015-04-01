@@ -96,35 +96,26 @@
 </section>
 
 <section class="registration">
- <h2>Registration</h2>
- <form>
- <label>First name:</label>
- <input type="text" name="firstname">
- <br>
- <label>Last name:</label>
- <input type="text" name="lastname"> 
- <br>
- <label>Sex:</label>
- <input type="checkbox" name="sex" value="male">Male
- <input type="checkbox" name="sex" value="female">Female
- <br>
- <label>Set password:</label>
- <input type="password">
- <br>
- <label>Retype password:</label>
- <input type="password">
- <br>
- <label>Scientific and professional interest (optional):</label>
- <br>
- <textarea rows="7"></textarea>
- <br>
- <label>I agree to the terms and conditions</label>
- <input type="radio" name="agree" >
- <br>
- <input type="button" value="Submit">
- <input type="button" value="Cancel">
-</form>
+  <h2>Registration</h2>
+  <form>
+    <div class="input">
+    <input class="inputholder" type="text" placeholder="First Name"></div>
+    <div class="input">
+    <input class="inputholder" type="text" placeholder="Last Name"></div>
+    <div class="input">
+    <input class="inputholder" type="text" placeholder="Username"></div>
+    <div class="input">
+    <input class="inputholder" type="text" placeholder="Email"></div>
+    <div class="input">
+    <input class="inputholder" type="password" placeholder="Set Password"></div>
+    <div class="input">
+    <input class="inputholder" type="password" placeholder="Retype Password"></div>
+    <div class="texarea"><textarea rows="3" placeholder="Security questions"></textarea></div>
+    <button class="button" type="submit">Submit</button>
+				    <button class="button" type="reset">Cancel</button>
+  </form>
 </section>
+
   
 <footer class="footer">
 J. J. Strossmayer University of Osijek, 
@@ -133,6 +124,5 @@ Client-side Web Development
 </footer>
 
 </div>
-
 </body>
 </html>
